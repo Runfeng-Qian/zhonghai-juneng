@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "home_title": "中海聚能集团有限公司",
+    "about_title": "关于我们 - 中海聚能集团有限公司",
+    "business_title": "业务 - 中海聚能集团有限公司",
+    "contact_title": "联系我们 - 中海聚能集团有限公司"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "business": "业务",
+    "contact": "联系我们"
+  },
+  "common": {
+    "learn_more": "了解更多"
+  },
+  "home": {
+    "eyebrow": "中海聚能集团有限公司",
+    "hero_title": "[首页主标题]",
+    "hero_subtitle": "[首页副标题段落。]",
+    "about_title": "[关于我们标题]",
+    "about_body": "[关于我们简介内容。]",
+    "business_title": "[业务领域标题]",
+    "business_body": "[业务领域简介内容。]"
+  },
+  "about": {
+    "page_title": "[关于我们页面标题]",
+    "page_subtitle": "[关于我们页面副标题段落。]",
+    "section1_title": "[第一部分标题]",
+    "section1_body": "[第一部分正文。请替换为公司历史、使命或背景。]",
+    "section2_title": "[第二部分标题]",
+    "section2_body": "[第二部分正文。请替换为领导团队、价值观或愿景。]"
+  },
+  "business": {
+    "page_title": "[业务页面标题]",
+    "page_subtitle": "[业务页面副标题段落。]",
+    "area1_title": "[业务领域一标题]",
+    "area1_body": "[业务领域一介绍。]",
+    "area2_title": "[业务领域二标题]",
+    "area2_body": "[业务领域二介绍。]",
+    "area3_title": "[业务领域三标题]",
+    "area3_body": "[业务领域三介绍。]"
+  },
+  "contact": {
+    "page_title": "[联系我们页面标题]",
+    "page_subtitle": "[联系我们页面副标题段落。]",
+    "address_label": "地址",
+    "address_value": "[公司地址]",
+    "email_label": "电子邮件",
+    "email_value": "[email@example.com]",
+    "phone_label": "电话",
+    "phone_value": "[+xx xxx xxx xxxx]"
+  },
+  "footer": {
+    "copyright": "版权所有 © 2026 中海聚能集团有限公司"
+  }
+}

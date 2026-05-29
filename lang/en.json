@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "home_title": "Zhonghai Juneng Group Co., Ltd.",
+    "about_title": "About - Zhonghai Juneng Group Co., Ltd.",
+    "business_title": "Business - Zhonghai Juneng Group Co., Ltd.",
+    "contact_title": "Contact - Zhonghai Juneng Group Co., Ltd."
+  },
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "business": "BUSINESS",
+    "contact": "CONTACT"
+  },
+  "common": {
+    "learn_more": "Learn More"
+  },
+  "home": {
+    "eyebrow": "Zhonghai Juneng Group Co., Ltd.",
+    "hero_title": "[Hero title]",
+    "hero_subtitle": "[Hero subtitle paragraph.]",
+    "about_title": "[About section title]",
+    "about_body": "[About section preview body.]",
+    "business_title": "[Business section title]",
+    "business_body": "[Business section preview body.]"
+  },
+  "about": {
+    "page_title": "[About page title]",
+    "page_subtitle": "[About page subtitle paragraph.]",
+    "section1_title": "[Section 1 title]",
+    "section1_body": "[Section 1 body. Replace with company history, mission, or background.]",
+    "section2_title": "[Section 2 title]",
+    "section2_body": "[Section 2 body. Replace with leadership, values, or vision.]"
+  },
+  "business": {
+    "page_title": "[Business page title]",
+    "page_subtitle": "[Business page subtitle paragraph.]",
+    "area1_title": "[Business area 1 title]",
+    "area1_body": "[Business area 1 description.]",
+    "area2_title": "[Business area 2 title]",
+    "area2_body": "[Business area 2 description.]",
+    "area3_title": "[Business area 3 title]",
+    "area3_body": "[Business area 3 description.]"
+  },
+  "contact": {
+    "page_title": "[Contact page title]",
+    "page_subtitle": "[Contact page subtitle paragraph.]",
+    "address_label": "Address",
+    "address_value": "[Company address]",
+    "email_label": "Email",
+    "email_value": "[email@example.com]",
+    "phone_label": "Phone",
+    "phone_value": "[+xx xxx xxx xxxx]"
+  },
+  "footer": {
+    "copyright": "Copyright © 2026 Zhonghai Juneng Group Co., Ltd."
+  }
+}

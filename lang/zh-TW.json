@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "home_title": "中海聚能集團有限公司",
+    "about_title": "關於我們 - 中海聚能集團有限公司",
+    "business_title": "業務 - 中海聚能集團有限公司",
+    "contact_title": "聯絡我們 - 中海聚能集團有限公司"
+  },
+  "nav": {
+    "home": "首頁",
+    "about": "關於我們",
+    "business": "業務",
+    "contact": "聯絡我們"
+  },
+  "common": {
+    "learn_more": "了解更多"
+  },
+  "home": {
+    "eyebrow": "中海聚能集團有限公司",
+    "hero_title": "[首頁主標題]",
+    "hero_subtitle": "[首頁副標題段落。]",
+    "about_title": "[關於我們標題]",
+    "about_body": "[關於我們簡介內容。]",
+    "business_title": "[業務領域標題]",
+    "business_body": "[業務領域簡介內容。]"
+  },
+  "about": {
+    "page_title": "[關於我們頁面標題]",
+    "page_subtitle": "[關於我們頁面副標題段落。]",
+    "section1_title": "[第一部分標題]",
+    "section1_body": "[第一部分正文。請替換為公司歷史、使命或背景。]",
+    "section2_title": "[第二部分標題]",
+    "section2_body": "[第二部分正文。請替換為領導團隊、價值觀或願景。]"
+  },
+  "business": {
+    "page_title": "[業務頁面標題]",
+    "page_subtitle": "[業務頁面副標題段落。]",
+    "area1_title": "[業務領域一標題]",
+    "area1_body": "[業務領域一介紹。]",
+    "area2_title": "[業務領域二標題]",
+    "area2_body": "[業務領域二介紹。]",
+    "area3_title": "[業務領域三標題]",
+    "area3_body": "[業務領域三介紹。]"
+  },
+  "contact": {
+    "page_title": "[聯絡我們頁面標題]",
+    "page_subtitle": "[聯絡我們頁面副標題段落。]",
+    "address_label": "地址",
+    "address_value": "[公司地址]",
+    "email_label": "電子郵件",
+    "email_value": "[email@example.com]",
+    "phone_label": "電話",
+    "phone_value": "[+xx xxx xxx xxxx]"
+  },
+  "footer": {
+    "copyright": "版權所有 © 2026 中海聚能集團有限公司"
+  }
+}

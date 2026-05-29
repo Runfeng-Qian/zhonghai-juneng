@@ -1,0 +1,66 @@
+/* ============================================
+   Custom styles for 中海聚能集团有限公司
+   Layered on top of Webflow CSS
+   ============================================ */
+
+/* Language switcher in nav */
+.lang-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 24px;
+  padding-left: 24px;
+  border-left: 1px solid #e0e0e0;
+}
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #555;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  line-height: 1.2;
+}
+
+.lang-btn:hover {
+  background: #f0f0f0;
+  color: #000;
+}
+
+.lang-btn.active {
+  background: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/* On mobile nav, stack lang switcher below links */
+@media screen and (max-width: 991px) {
+  .lang-switcher {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: none;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 12px;
+    padding-top: 12px;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+/* Apply Noto Sans SC/TC to Chinese characters for better rendering */
+html[lang="zh-CN"] body {
+  font-family: "Noto Sans SC", "Open Sans", sans-serif;
+}
+
+html[lang="zh-TW"] body {
+  font-family: "Noto Sans TC", "Open Sans", sans-serif;
+}
+
+html[lang="en"] body {
+  font-family: "Open Sans", sans-serif;
+}
