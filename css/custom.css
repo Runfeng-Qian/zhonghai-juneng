@@ -64,7 +64,7 @@ h1, h2, h3,
 
 /* Section sub-headings matched to the main heading size */
 .home-about-title {
-  font-size: 44px;
+  font-size: 40px;
   line-height: 1.2;
 }
 
@@ -163,7 +163,7 @@ h1, h2, h3,
 /* ---- Logos ---- */
 /* Smaller footer logo (was width="200" in the HTML) */
 .f-footer-logo img {
-  width: 130px;
+  width: 100px;
   height: auto;
 }
 
@@ -197,20 +197,27 @@ h1, h2, h3,
   .nav-side {
     display: flex;
     align-items: center;
-    gap: 24px;
-    min-width: 0;   /* lets the columns stay equal instead of growing to fit content */
+    gap: 28px;
+    min-width: 0;
   }
 
+  /* HOME anchors the left corner, ABOUT sits beside the logo */
   .nav-side-left {
+    justify-content: space-between;
+  }
+
+  /* BUSINESS/CONTACT sit beside the logo; language bar pushed to the far right */
+  .nav-side-right {
     justify-content: flex-start;
   }
 
-  .nav-side-right {
-    justify-content: flex-end;
+  .nav-side-right .lang-switcher {
+    margin-left: auto;
   }
 
+  /* Breathing room on each side of the centered logo */
   .f-navigation-logo-link-middle {
-    margin: 0 24px;
+    margin: 0 36px;
   }
 }
 
