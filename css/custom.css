@@ -55,17 +55,17 @@ h1, h2, h3,
   color: var(--zsg-ink);
 }
 
-/* Slightly smaller page/hero titles (template default is 64px) */
+/* Smaller page/hero titles (template default is 64px) */
 .home-header-h1,
 .f-h1-heading-2 {
-  font-size: 52px;
+  font-size: 44px;
   line-height: 1.15;
 }
 
 @media screen and (max-width: 991px) {
   .home-header-h1,
   .f-h1-heading-2 {
-    font-size: 40px;
+    font-size: 32px;
   }
 }
 
@@ -172,34 +172,47 @@ h1, h2, h3,
   height: auto;
 }
 
-/* Desktop: show the centered logo, hide the left/mobile logo (avoid duplicates) */
+/* Desktop: balanced halves keep the logo centered (the template's own method) */
 @media screen and (min-width: 992px) {
   .f-navigation-logo-link-mobile {
     display: none;
   }
 
-  /* Pin the logo to the true horizontal center, independent of the links and language bar */
-  .f-navigation-container-middle {
-    position: relative;
+  .f-navigation-menu.w-nav-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
 
-  .f-navigation-menu.w-nav-menu {
-    position: static;
+  /* Equal-width sides keep the logo dead-center regardless of the language bar */
+  .nav-side {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    flex: 1 1 0;
+  }
+
+  .nav-side-right {
+    justify-content: flex-end;
   }
 
   .f-navigation-logo-link-middle {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
+    flex: 0 0 auto;
+    margin: 0 28px;
   }
 }
 
-/* Mobile: keep the left logo, hide the centered one */
+/* Mobile: keep the left logo, hide the centered one; stack the link groups */
 @media screen and (max-width: 991px) {
   .f-navigation-logo-link-middle {
     display: none;
+  }
+
+  .nav-side {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
   }
 }
 
