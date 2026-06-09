@@ -1,16 +1,180 @@
 /* ============================================
-   Custom styles for 中海聚能集团有限公司
+   Custom styles for 中海聚能集团有限公司 (ZSG)
    Layered on top of Webflow CSS
    ============================================ */
 
-/* Language switcher in nav */
+/* ---- Theme tokens ---- */
+:root {
+  --zsg-blue: #005a9c;        /* professional banking blue (RBC/BMO range) */
+  --zsg-blue-dark: #00407a;   /* hover / pressed */
+  --zsg-ink: #111418;         /* near-black headings */
+  --zsg-body: #2b2f36;        /* body text */
+  --zsg-line: #e6e9ee;        /* subtle dividers */
+}
+
+/* ---- Base ---- */
+body {
+  background-color: #ffffff;
+  color: var(--zsg-ink);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Larger, more readable body text */
+p,
+.f-paragraph-large-2 {
+  color: var(--zsg-body);
+  font-size: 1.125rem;   /* ~18px */
+  line-height: 1.75;
+}
+
+/* Keep line length comfortable in left-aligned content blocks */
+.wrapper .f-paragraph-large-2 {
+  max-width: 48rem;
+}
+
+/* Centered page-header subtitles stay centered */
+.f-header-title-wrapper-center .f-paragraph-large-2 {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- Headings ---- */
+h1, h2, h3,
+.home-header-h1,
+.f-h1-heading-2,
+.home-about-title {
+  color: var(--zsg-ink);
+}
+
+/* Eyebrow / kicker text in blue */
+.f-heading-detail-small-2 {
+  color: var(--zsg-blue);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+}
+
+/* Blue accent bar under section titles */
+.home-about-title::after {
+  content: "";
+  display: block;
+  width: 56px;
+  height: 4px;
+  margin-top: 14px;
+  background-color: var(--zsg-blue);
+  border-radius: 2px;
+}
+
+/* ---- Buttons (solid blue, like a bank CTA) ---- */
+.secondary-btn {
+  background-color: var(--zsg-blue);
+  border: 1px solid var(--zsg-blue);
+  border-radius: 8px;
+  padding: 12px 26px;
+  font-weight: 600;
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.secondary-btn,
+.secondary-btn div {
+  color: #ffffff;
+}
+
+.secondary-btn:hover {
+  background-color: var(--zsg-blue-dark);
+  border-color: var(--zsg-blue-dark);
+}
+
+/* ---- Navbar ---- */
+.w-nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid var(--zsg-line);
+}
+
+.f-navigation-link {
+  color: var(--zsg-ink);
+  font-weight: 600;
+}
+
+.f-navigation-link:hover,
+.f-navigation-link.w--current {
+  color: var(--zsg-blue);
+}
+
+/* Inline links inside copy (e.g. emails) */
+.f-paragraph-large-2 a {
+  color: var(--zsg-blue);
+  text-decoration: underline;
+}
+
+/* ---- Footer ---- */
+.f-footer-small {
+  background-color: #ffffff;
+  border-top: 1px solid var(--zsg-line);
+}
+
+.f-footer-link {
+  color: var(--zsg-ink);
+}
+
+.f-footer-link:hover {
+  color: var(--zsg-blue);
+}
+
+.f-footer-detail {
+  color: #6b7280;
+}
+
+.f-footer-vertical-divider,
+.f-footer-horizontal-divider {
+  background-color: var(--zsg-line);
+}
+
+/* ---- Logos ---- */
+/* Smaller footer logo (was width="200" in the HTML) */
+.f-footer-logo img {
+  width: 130px;
+  height: auto;
+}
+
+/* Centered logo sitting between the nav buttons */
+.f-navigation-logo-link-middle {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.f-navigation-logo-link-middle img {
+  width: 120px;
+  height: auto;
+}
+
+/* Desktop: show the centered logo, hide the left/mobile logo (avoid duplicates) */
+@media screen and (min-width: 992px) {
+  .f-navigation-logo-link-mobile {
+    display: none;
+  }
+}
+
+/* Mobile: keep the left logo, hide the centered one */
+@media screen and (max-width: 991px) {
+  .f-navigation-logo-link-middle {
+    display: none;
+  }
+}
+
+/* ============================================
+   Language switcher in nav
+   ============================================ */
 .lang-switcher {
   display: inline-flex;
   align-items: center;
   gap: 4px;
   margin-left: 24px;
   padding-left: 24px;
-  border-left: 1px solid #e0e0e0;
+  border-left: 1px solid var(--zsg-line);
 }
 
 .lang-btn {
@@ -33,9 +197,9 @@
 }
 
 .lang-btn.active {
-  background: #333;
+  background: var(--zsg-blue);
   color: #fff;
-  border-color: #333;
+  border-color: var(--zsg-blue);
 }
 
 /* On mobile nav, stack lang switcher below links */
@@ -44,7 +208,7 @@
     margin-left: 0;
     padding-left: 0;
     border-left: none;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid var(--zsg-line);
     margin-top: 12px;
     padding-top: 12px;
     justify-content: center;
@@ -52,7 +216,9 @@
   }
 }
 
-/* Apply Noto Sans SC/TC to Chinese characters for better rendering */
+/* ============================================
+   Chinese font rendering
+   ============================================ */
 html[lang="zh-CN"] body {
   font-family: "Noto Sans SC", "Open Sans", sans-serif;
 }
