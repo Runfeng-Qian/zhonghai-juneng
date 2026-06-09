@@ -40,12 +40,33 @@ p,
   margin-right: auto;
 }
 
+/* Template gives content sections a dark bg + image; make them white */
+.f-section-large,
+.f-section-large-2 {
+  background-color: #ffffff;
+  background-image: none;
+}
+
 /* ---- Headings ---- */
 h1, h2, h3,
 .home-header-h1,
 .f-h1-heading-2,
 .home-about-title {
   color: var(--zsg-ink);
+}
+
+/* Slightly smaller page/hero titles (template default is 64px) */
+.home-header-h1,
+.f-h1-heading-2 {
+  font-size: 52px;
+  line-height: 1.15;
+}
+
+@media screen and (max-width: 991px) {
+  .home-header-h1,
+  .f-h1-heading-2 {
+    font-size: 40px;
+  }
 }
 
 /* Eyebrow / kicker text in blue */
@@ -155,6 +176,23 @@ h1, h2, h3,
 @media screen and (min-width: 992px) {
   .f-navigation-logo-link-mobile {
     display: none;
+  }
+
+  /* Pin the logo to the true horizontal center, independent of the links and language bar */
+  .f-navigation-container-middle {
+    position: relative;
+  }
+
+  .f-navigation-menu.w-nav-menu {
+    position: static;
+  }
+
+  .f-navigation-logo-link-middle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
   }
 }
 
