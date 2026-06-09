@@ -62,9 +62,16 @@ h1, h2, h3,
   line-height: 1.15;
 }
 
+/* Section sub-headings matched to the main heading size */
+.home-about-title {
+  font-size: 44px;
+  line-height: 1.2;
+}
+
 @media screen and (max-width: 991px) {
   .home-header-h1,
-  .f-h1-heading-2 {
+  .f-h1-heading-2,
+  .home-about-title {
     font-size: 32px;
   }
 }
@@ -172,24 +179,30 @@ h1, h2, h3,
   height: auto;
 }
 
-/* Desktop: balanced halves keep the logo centered (the template's own method) */
+/* Desktop: a 3-column grid (1fr | logo | 1fr) pins the logo to the exact center.
+   The side columns are always equal width, so the language bar cannot shift it. */
 @media screen and (min-width: 992px) {
   .f-navigation-logo-link-mobile {
     display: none;
   }
 
   .f-navigation-menu.w-nav-menu {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
     width: 100%;
+    float: none;
   }
 
-  /* Equal-width sides keep the logo dead-center regardless of the language bar */
   .nav-side {
     display: flex;
     align-items: center;
-    gap: 28px;
-    flex: 1 1 0;
+    gap: 24px;
+    min-width: 0;   /* lets the columns stay equal instead of growing to fit content */
+  }
+
+  .nav-side-left {
+    justify-content: flex-start;
   }
 
   .nav-side-right {
@@ -197,8 +210,7 @@ h1, h2, h3,
   }
 
   .f-navigation-logo-link-middle {
-    flex: 0 0 auto;
-    margin: 0 28px;
+    margin: 0 24px;
   }
 }
 
