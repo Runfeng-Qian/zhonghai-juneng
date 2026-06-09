@@ -197,13 +197,12 @@ h1, h2, h3,
   .nav-side {
     display: flex;
     align-items: center;
-    gap: 28px;
+    gap: 32px;          /* was 28px */
     min-width: 0;
   }
 
-  /* HOME anchors the left corner, ABOUT sits beside the logo */
   .nav-side-left {
-    justify-content: space-between;
+    justify-content: flex-end;   /* was space-between */
   }
 
   /* BUSINESS/CONTACT sit beside the logo; language bar pushed to the far right */
@@ -215,9 +214,8 @@ h1, h2, h3,
     margin-left: auto;
   }
 
-  /* Breathing room on each side of the centered logo */
   .f-navigation-logo-link-middle {
-    margin: 0 36px;
+    margin: 0 32px;     /* was 0 36px */
   }
 }
 
