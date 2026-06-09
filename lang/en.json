@@ -1,9 +1,9 @@
 {
   "meta": {
-    "home_title": "Zhonghai Juneng Group Co., Ltd.",
-    "about_title": "About - Zhonghai Juneng Group Co., Ltd.",
-    "business_title": "Business - Zhonghai Juneng Group Co., Ltd.",
-    "contact_title": "Contact - Zhonghai Juneng Group Co., Ltd."
+    "home_title": "Zhonghai Synergy Group Limited (ZSG)",
+    "about_title": "About Us — Zhonghai Synergy Group Limited (ZSG)",
+    "business_title": "Business — Zhonghai Synergy Group Limited (ZSG)",
+    "contact_title": "Contact Us — Zhonghai Synergy Group Limited (ZSG)"
   },
   "nav": {
     "home": "HOME",
@@ -15,43 +15,57 @@
     "learn_more": "Learn More"
   },
   "home": {
-    "eyebrow": "Zhonghai Juneng Group Co., Ltd.",
-    "hero_title": "[Hero title]",
-    "hero_subtitle": "[Hero subtitle paragraph.]",
-    "about_title": "[About section title]",
-    "about_body": "[About section preview body.]",
-    "business_title": "[Business section title]",
-    "business_body": "[Business section preview body.]"
+    "eyebrow": "Zhonghai Synergy Group Limited (ZSG)",
+    "hero_title": "Aggregating Global Green Energy, Leading the Carbon-Negative Modern Bioeconomy",
+    "hero_subtitle": "Zhonghai Synergy Group Limited (ZSG) is a pioneering renewable energy company based in Hong Kong, dedicated to the research, development, and scaling of cutting-edge clean technologies that drive the transition toward a sustainable, low-carbon global economy. With a world-leading technological ecosystem spanning green hydrogen, green methanol, and their derivatives, ZSG stands at the forefront of energy innovation — serving as both the initiator and future core operating entity of this Project, and committed to defining the future of global green energy solutions.",
+    "about_title": "A Global Leader in Green Hydrogen & Carbon-Negative Industries",
+    "about_body": "ZSG's flagship undertaking is anchored by a USD 11.8 billion long-term project loan and primary credit facility structured through HSBC, fully guaranteeing financial solvency across the project lifecycle. The integrated green product matrix — primarily green methanol, green ammonia, and green hydrogen — targets a grand-scale capacity of 1.4 million tons per year, unleashed through a three-phase rolling mechanism (100k / 400k / 900k tons/year). It is supported by 4.5 GW of dedicated wind power built on Source-Grid-Load-Storage integration (1.5 GW + 1.5 GW + 1.5 GW), and a 100,000-hectare base of standardized energy crops (Giant Reed) cultivated on coastal marginal soils to form a massive natural carbon-negative green mine.",
+    "business_title": "Core Strategic Advantages",
+    "business_body": "Our source innovation uses Phase-Change Migration-Driven Seawater Electrolysis to produce high-purity hydrogen with zero terrestrial freshwater usage — eliminating reverse-osmosis infrastructure, avoiding high-concentration brine outfall, and protecting marine and coral-reef ecosystems. A non-grain biomass closed-loop system cultivates high-efficiency C4 Giant Reed on saline-alkali soils, integrating CAS circulating fluidized bed gasification with no-heat-carrier flash pyrolysis to maximize carbon mitigation. With 100% export orientation, ZSG directly meets the low-carbon bunkering requirements of global shipping conglomerates and integrates host nations into top-tier global chemical value chains."
   },
   "about": {
-    "page_title": "[About page title]",
-    "page_subtitle": "[About page subtitle paragraph.]",
-    "section1_title": "[Section 1 title]",
-    "section1_body": "[Section 1 body. Replace with company history, mission, or background.]",
-    "section2_title": "[Section 2 title]",
-    "section2_body": "[Section 2 body. Replace with leadership, values, or vision.]"
+    "page_title": "About Us",
+    "page_subtitle": "Synergizing Transnational Capital and Premier Scientific Matrices",
+    "section1_title": "Corporate Overview & Evolution",
+    "section1_body": "Zhonghai Synergy Group Limited (ZSG) is based in the Hong Kong SAR, China. ZSG is the strategic successor and operational continuation of the original MOU signatory entity, inheriting and applying all proprietary technological advancements, invention patents, and intellectual property. A global leader in green energy and circular economies, ZSG holds 100% asset sovereignty and operational independence over mega-scale integrated green energy complexes, backed by significant investment from transnational funds.",
+    "section2_title": "Ultimate Beneficial Owner & Governance",
+    "section2_body": "The ultimate beneficial owner of the group is Xin Zhang, who holds controlling equity in the core business holding structure. Operating under rigorous modern corporate governance, our multinational financial and accounting team provides institutional diligence in securing asset structures and implementing complex financial leverage under International Financial Reporting Standards (IFRS), ensuring fiscal integrity and long-term asset value enhancement.",
+    "section3_title": "Premier 'EPC+F+O' Consortium",
+    "section3_body": "Top-tier EPC contractors include The Third Construction Engineering Company Ltd. of China Construction Second Engineering Bureau and China MCC5 Group Co., Ltd. — both Fortune 500 enterprises with full-industry-chain lifecycle management capacity. The financing syndicate platform, Zhonglian Construction International Holdings Co., Ltd., drives credit-line approvals through the Export-Import Bank of China, Sinosure, and HSBC.",
+    "section4_title": "Strategic Scientific & Academic Partners",
+    "section4_body": "Our research and engineering network spans CRRC Group Co., Ltd.; the Institute of Engineering Thermophysics of the Chinese Academy of Sciences (CAS); Tsinghua University; Tianjin University; Shenzhen University; Hainan University; Wuhan Landuo Biotechnology Co., Ltd.; Tianjin Redsun Science Technology Development Group Co., Ltd.; Tianjin Saihong Environmental Engineering Co., Ltd.; CAS Hefei Coal Gasification Technology Co., Ltd.; and Kaifeng Dil Air Separation Industrial Co., Ltd."
   },
   "business": {
-    "page_title": "[Business page title]",
-    "page_subtitle": "[Business page subtitle paragraph.]",
-    "area1_title": "[Business area 1 title]",
-    "area1_body": "[Business area 1 description.]",
-    "area2_title": "[Business area 2 title]",
-    "area2_body": "[Business area 2 description.]",
-    "area3_title": "[Business area 3 title]",
-    "area3_body": "[Business area 3 description.]"
+    "page_title": "Business",
+    "page_subtitle": "Dual-Core Technology, Flagship Projects, and Carbon-Negative Commitments",
+    "area1_title": "All-Clean Green Hydrogen Technical Chain",
+    "area1_body": "ZSG eliminates conventional desalination barriers through interfacial phase-change on-site self-absorption purification, using pressure differentials across a hydrophobic gas-phase membrane. Water vapor is absorbed inline into standard alkaline electrolyzers, avoiding anode chlorine evolution and cathode scaling by rejecting impurity ions from raw saltwater (rejection rate >99.99%). With DC power usage of only 4.5 kWh/Nm³, the technology sets a new standard for electrolysis — requiring no freshwater and leaving no environmental impact.",
+    "area2_title": "Non-Grain Biomass Zero-Carbon Fuel Chain",
+    "area2_body": "Standardized marginal-land cultivation of polyploid Giant Reed yields 75–105 metric tons of bone-dry matter per hectare, with over 86% structural carbohydrates, a heating value of 3,900–4,400 kcal/kg, 46.63% carbon content, negligible sulfur, and under 4% ash. Two thermochemical pathways follow: Pathway A uses the CAS CGAS atmospheric circulating fluidized bed gasification process (98–99% carbon conversion, 75–80% cold-gas efficiency) to feed green methanol loops; Pathway B uses Wuhan Landuo's no-heat-carrier regenerative radiant-tube flash pyrolysis (≥900°C within 6–9 seconds), producing green hydrogen at roughly one-third the cost of traditional water electrolysis, alongside premium biochar.",
+    "area3_title": "Six-Step 3D Saline-Alkali Land Reclamation",
+    "area3_body": "ZSG rehabilitates barren soils through integrated biological, chemical, and automated-machinery techniques. Proprietary TRX-SA-01 carbon-based probiotic soil conditioners and TRX-SA-02 bio-based salt-leaching agents reduce soil salinity from 15‰ to below 3.98‰ within months, with no adverse chemical consequences. Soil porosity improves 18.7–21.6% while organic matter doubles. Municipal sewage-sludge aerobic fermentation lines (400 tons/day) and localized fertigation upcycle organic waste and promote energy-crop growth — a sustainable loop that transforms deserts into oasis.",
+    "area4_title": "Flagship Project — Sri Lanka Integrated Complex",
+    "area4_body": "The ZSG Green Hydrogen-Ammonia-Methanol Integrated Project (total investment USD 11.8 billion) is formally invited and fully backed by the Ministry of Energy of Sri Lanka. Positioned across the Southern (Hambantota) and Northeastern (Trincomalee) coastal regions, it features 4.5 GW of wind farms across three 1.5 GW phases; a phased 100,000-hectare Giant Reed plantation base; a dedicated chemical-grade port terminal with storage and international bunkering infrastructure for the 1.4 million t/a green product matrix; and the ZSG Comprehensive Headquarters in Colombo with digitalized staff living complexes. Construction is scheduled to commence in 2026, with 100% export orientation targeting global green shipping-fuel markets.",
+    "area5_title": "Global Capital Projects & Operational Footprints",
+    "area5_body": "Beyond Sri Lanka, ZSG is developing a portfolio of international assets: the Panama Port of Balboa Green Methanol Project, where ZSG acts as developer and full owner of a planned 1.4 million tons/year green methanol base serving global maritime lines; the China Tianjin Saihong Biomass Poly-generation Project, a 100,000 tons/year biomass-to-green-methanol facility; and the China Zhanjiang CIMC Enric Project, a collaborative 50,000 tons/year green fuel refinery.",
+    "area6_title": "Sustainability & ESG — Carbon-Negative Commitments",
+    "area6_body": "Giant Reed fixes 45–50% pure carbon per dry ton and sequesters over 50 tons of CO₂ per hectare annually — five times that of tropical forests. Across its lifecycle, every ton of dry biomass can deliver cumulative reductions of up to 3.04 tons of CO₂-equivalent, from sludge upcycling and soil carbon-sink enhancement to coal replacement and green methanol conversion. The complex is guaranteed to consume zero fossil fuel and is anchored on premier international certifications (ISCC Plus, EU RFNBO, the Equator Principles, IFC Performance Standards, ISO 14001). It directly creates tens of thousands of local jobs, trains local talent through a dedicated 'ZSG Training Academy' in partnership with CAS and Tsinghua University, and operates under 'Safety-First and Continuity-of-Service' principles to empower host governments to exceed their NDC commitments."
   },
   "contact": {
-    "page_title": "[Contact page title]",
-    "page_subtitle": "[Contact page subtitle paragraph.]",
-    "address_label": "Address",
-    "address_value": "[Company address]",
-    "email_label": "Email",
-    "email_value": "[email@example.com]",
-    "phone_label": "Phone",
-    "phone_value": "[+xx xxx xxx xxxx]"
+    "page_title": "Contact Us",
+    "page_subtitle": "Embracing a New Era of Global Green Hydrogen Value Chains. ZSG welcomes long-term concessions, commercial off-take agreements, and strategic partnerships with global maritime lines, chemical buyers, and ESG financing syndicates.",
+    "address_label": "Country of Incorporation",
+    "address_value": "Hong Kong Special Administrative Region (Hong Kong SAR), China",
+    "email_label": "Preferred Corporate Emails",
+    "email_value": "baa@zsg-global.com / darin@zsg-global.com",
+    "phone_label": "International Hotline Matrix",
+    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776",
+    "contacts_label": "Global Business Leads / Liaisons",
+    "contacts_value": "Baa Zhang / Darin Cheung",
+    "statement_title": "Solemn Statement on Asset Sovereignty & Pricing Autonomy",
+    "statement_body": "Under the definitive political and legal covenants signed with host governments, Zhonghai Synergy Group Limited (ZSG) holds 100% absolute asset sovereignty, fully autonomous management rights, and independent global pricing autonomy over its green commodities. Throughout the concession lifecycle, host governments pledge zero equity ownership, no operational interference, and no unequal regulatory restraints — ensuring ZSG's exclusive operational prerogatives and protecting the interests of foreign customers."
   },
   "footer": {
-    "copyright": "Copyright © 2026 Zhonghai Juneng Group Co., Ltd."
+    "copyright": "Copyright © 2026 Zhonghai Synergy Group Limited (ZSG)"
   }
 }
