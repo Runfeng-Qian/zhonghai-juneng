@@ -165,8 +165,22 @@ h1, h2, h3,
 /* ---- Logos ---- */
 /* Smaller footer logo (was width="200" in the HTML) */
 .f-footer-logo img {
-  width: 50px;
+  width: 80px;
   height: auto;
+}
+
+/* Keep footer links on a single horizontal line */
+.f-footer-menu {
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 479px) {
+  .f-footer-menu {
+    flex-direction: row;
+  }
+  .f-footer-vertical-divider {
+    display: block;   /* the | dividers are hidden on mobile by default */
+  }
 }
 
 /* Centered logo sitting between the nav buttons */
