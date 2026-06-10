@@ -82,6 +82,7 @@ h1, h2, h3,
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
+  font-size: 28px;
 }
 
 /* Blue accent bar under section titles */
