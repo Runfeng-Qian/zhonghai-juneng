@@ -27,13 +27,15 @@
     "page_title": "About Us",
     "page_subtitle": "Synergizing Transnational Capital and Premier Scientific Matrices",
     "section1_title": "Corporate Overview & Evolution",
-    "section1_body": "Zhonghai Synergy Group Limited (ZSG) is based in the Hong Kong SAR, China. ZSG is the strategic successor and operational continuation of the original MOU signatory entity, inheriting and applying all proprietary technological advancements, invention patents, and intellectual property. A global leader in green energy and circular economies, ZSG holds 100% asset sovereignty and operational independence over mega-scale integrated green energy complexes, backed by significant investment from transnational funds.",
-    "section2_title": "Ultimate Beneficial Owner & Governance",
-    "section2_body": "The ultimate beneficial owner of the group is Xin Zhang, who holds controlling equity in the core business holding structure. Operating under rigorous modern corporate governance, our multinational financial and accounting team provides institutional diligence in securing asset structures and implementing complex financial leverage under International Financial Reporting Standards (IFRS), ensuring fiscal integrity and long-term asset value enhancement.",
-    "section3_title": "Premier 'EPC+F+O' Consortium",
-    "section3_body": "Top-tier EPC contractors include The Third Construction Engineering Company Ltd. of China Construction Second Engineering Bureau and China MCC5 Group Co., Ltd. — both Fortune 500 enterprises with full-industry-chain lifecycle management capacity. The financing syndicate platform, Zhonglian Construction International Holdings Co., Ltd., drives credit-line approvals through the Export-Import Bank of China, Sinosure, and HSBC.",
-    "section4_title": "Strategic Scientific & Academic Partners",
-    "section4_body": "Our research and engineering network spans CRRC Group Co., Ltd.; the Institute of Engineering Thermophysics of the Chinese Academy of Sciences (CAS); Tsinghua University; Tianjin University; Shenzhen University; Hainan University; Wuhan Landuo Biotechnology Co., Ltd.; Tianjin Redsun Science Technology Development Group Co., Ltd.; Tianjin Saihong Environmental Engineering Co., Ltd.; CAS Hefei Coal Gasification Technology Co., Ltd.; and Kaifeng Dil Air Separation Industrial Co., Ltd."
+    "section1_body": "Zhonghai Synergy Group Limited (ZSG) is incorporated and headquartered in the Hong Kong Special Administrative Region (Hong Kong SAR), China. ZSG is the strategic successor and operational continuation of the original MOU signatory entity, inheriting and applying all proprietary technological advancements, invention patents, and intellectual property. A global leader in green energy and circular economies, ZSG holds 100% asset sovereignty and operational independence over mega-scale integrated green energy complexes, backed by significant investment from transnational funds.",
+    "section2_title": "Asset Sovereignty & Pricing Autonomy",
+    "section2_body": "Under the definitive political and legal covenants signed with host governments, Zhonghai Synergy Group Limited (ZSG) holds 100% absolute asset sovereignty, fully autonomous management rights, and independent global pricing autonomy over its green commodities. Throughout the concession lifecycle, host governments pledge zero equity ownership, no operational interference, and no unequal regulatory restraints — ensuring ZSG's exclusive operational prerogatives and protecting the interests of foreign customers.",
+    "section3_title": "Corporate Governance & Financial Management",
+    "section3_body": "Operating under rigorous modern corporate governance, our multinational financial and accounting team provides institutional diligence in securing asset structures and implementing complex financial leverage under International Financial Reporting Standards (IFRS), ensuring fiscal integrity and long-term asset value enhancement.",
+    "section4_title": "Premier 'EPC+F+O' Consortium",
+    "section4_body": "Top-tier EPC contractors include The Third Construction Engineering Company Ltd. of China Construction Second Engineering Bureau and China MCC5 Group Co., Ltd. — both Fortune 500 enterprises with full-industry-chain lifecycle management capacity. The financing syndicate platform, Zhonglian Construction International Holdings Co., Ltd., drives credit-line approvals through the Export-Import Bank of China, Sinosure, and HSBC.",
+    "section5_title": "Strategic Scientific & Academic Partners",
+    "section5_body": "Our research and engineering network spans CRRC, the CAS Institute of Engineering Thermophysics, Tsinghua University, Tianjin University, Shenzhen University, Hainan University, Wuhan Lando Biotechnology Co., Ltd., Tianjin Hongri Technology Development Group Co., Ltd., Tianjin Saihong Environmental Engineering Co., Ltd., CAS Hefei Coal Gasification Technology Co., Ltd., and Kaifeng Deer Air Separation Industrial Co., Ltd."
   },
   "business": {
     "page_title": "Business",
@@ -51,19 +53,15 @@
     "area6_title": "Sustainability & ESG — Carbon-Negative Commitments",
     "area6_body": "Giant Reed fixes 45–50% pure carbon per dry ton and sequesters over 50 tons of CO₂ per hectare annually — five times that of tropical forests. Across its lifecycle, every ton of dry biomass can deliver cumulative reductions of up to 3.04 tons of CO₂-equivalent, from sludge upcycling and soil carbon-sink enhancement to coal replacement and green methanol conversion. The complex is guaranteed to consume zero fossil fuel and is anchored on premier international certifications (ISCC Plus, EU RFNBO, the Equator Principles, IFC Performance Standards, ISO 14001). It directly creates tens of thousands of local jobs, trains local talent through a dedicated 'ZSG Training Academy' in partnership with CAS and Tsinghua University, and operates under 'Safety-First and Continuity-of-Service' principles to empower host governments to exceed their NDC commitments."
   },
-  "contact": {
+    "contact": {
     "page_title": "Contact Us",
     "page_subtitle": "Embracing a New Era of Global Green Hydrogen Value Chains. ZSG welcomes long-term concessions, commercial off-take agreements, and strategic partnerships with global maritime lines, chemical buyers, and ESG financing syndicates.",
-    "address_label": "Country of Incorporation",
-    "address_value": "Hong Kong Special Administrative Region (Hong Kong SAR), China",
+    "contacts_label": "Global Business Leads / Liaisons",
+    "contacts_value": "Baa Zhang / Darin Cheung",
     "email_label": "Preferred Corporate Emails",
     "email_value": "baa@zsg-global.com / darin@zsg-global.com",
     "phone_label": "International Hotline Matrix",
-    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776",
-    "contacts_label": "Global Business Leads / Liaisons",
-    "contacts_value": "Baa Zhang / Darin Cheung",
-    "statement_title": "Solemn Statement on Asset Sovereignty & Pricing Autonomy",
-    "statement_body": "Under the definitive political and legal covenants signed with host governments, Zhonghai Synergy Group Limited (ZSG) holds 100% absolute asset sovereignty, fully autonomous management rights, and independent global pricing autonomy over its green commodities. Throughout the concession lifecycle, host governments pledge zero equity ownership, no operational interference, and no unequal regulatory restraints — ensuring ZSG's exclusive operational prerogatives and protecting the interests of foreign customers."
+    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776"
   },
   "footer": {
     "copyright": "Copyright © 2026 Zhonghai Synergy Group Limited (ZSG)"
