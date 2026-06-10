@@ -60,6 +60,7 @@ h1, h2, h3,
 .f-h1-heading-2 {
   font-size: 44px;
   line-height: 1.15;
+  margin-top: 20px
 }
 
 /* Section sub-headings matched to the main heading size */
@@ -82,7 +83,7 @@ h1, h2, h3,
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-weight: 700;
-  font-size: 44px;
+  font-size: 36px;
 }
 
 /* Blue accent bar under section titles */
