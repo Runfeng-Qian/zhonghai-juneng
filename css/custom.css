@@ -84,6 +84,7 @@ h1, h2, h3,
   letter-spacing: 0.08em;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.3;
 }
 
 /* Blue accent bar under section titles */
@@ -115,6 +116,11 @@ h1, h2, h3,
 .secondary-btn:hover {
   background-color: var(--zsg-blue-dark);
   border-color: var(--zsg-blue-dark);
+}
+
+/* Right-align the contact form's Send Message button */
+.f-contact-submit-wrapper {
+  justify-content: flex-end;
 }
 
 /* ---- Navbar ---- */
