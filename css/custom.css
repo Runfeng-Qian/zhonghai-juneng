@@ -183,6 +183,12 @@ h1, h2, h3,
   }
 }
 
+/* Stop footer link labels from wrapping (关于我们 → 关于我/们) */
+.f-footer-link,
+.f-footer-link div {
+  white-space: nowrap;
+}
+
 /* Centered logo sitting between the nav buttons */
 .f-navigation-logo-link-middle {
   display: flex;
