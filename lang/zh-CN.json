@@ -56,12 +56,22 @@
   "contact": {
     "page_title": "联系我们",
     "page_subtitle": "拥抱全球绿氢价值链新时代。中海聚能诚邀与全球海运航线、化工买家及 ESG 融资银团建立长期特许经营、商业承购协议与战略合作伙伴关系。",
-    "contacts_label": "全球业务负责人 / 联系人",
-    "contacts_value": "Baa Zhang / Darin Cheung",
     "email_label": "首选企业邮箱",
     "email_value": "baa@zsg-global.com / darin@zsg-global.com",
     "phone_label": "国际热线矩阵",
-    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776"
+    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776",
+    "info_heading": "联系我们",
+    "email_label": "邮箱",
+    "phone_label": "电话",
+    "form_heading": "给我们留言",
+    "form_name": "您的姓名 *",
+    "form_email": "您的邮箱 *",
+    "form_subject": "主题",
+    "form_message": "您的留言 *",
+    "form_submit": "发送",
+    "form_sending": "发送中…",
+    "form_success": "感谢您的留言，我们会尽快与您联系。",
+    "form_error": "抱歉，提交时出现问题，请重试或直接发邮件联系我们。"
   },
   "footer": {
     "copyright": "版权所有 © 2026 中海聚能集团有限公司"

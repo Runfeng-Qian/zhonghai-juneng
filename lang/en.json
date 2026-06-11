@@ -56,12 +56,22 @@
     "contact": {
     "page_title": "Contact Us",
     "page_subtitle": "Embracing a New Era of Global Green Hydrogen Value Chains. ZSG welcomes long-term concessions, commercial off-take agreements, and strategic partnerships with global maritime lines, chemical buyers, and ESG financing syndicates.",
-    "contacts_label": "Global Business Leads / Liaisons",
-    "contacts_value": "Baa Zhang / Darin Cheung",
     "email_label": "Preferred Corporate Emails",
     "email_value": "baa@zsg-global.com / darin@zsg-global.com",
     "phone_label": "International Hotline Matrix",
-    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776"
+    "phone_value": "(+1) 647-937-3362 / (+1) 647-864-0270 / (+1) 51044776",
+    "info_heading": "Contact",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "form_heading": "Leave Us a Message",
+    "form_name": "Your Name *",
+    "form_email": "Your Email *",
+    "form_subject": "Subject",
+    "form_message": "Your Message *",
+    "form_submit": "Send Message",
+    "form_sending": "Sending…",
+    "form_success": "Thank you for your message. We'll get back to you soon.",
+    "form_error": "Sorry, something went wrong. Please try again or email us directly."
   },
   "footer": {
     "copyright": "Copyright © 2026 Zhonghai Synergy Group Limited (ZSG)"
