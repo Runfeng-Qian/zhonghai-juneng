@@ -312,6 +312,40 @@ h1, h2, h3,
   }
 }
 
+/* ---- Hero background image ---- */
+.hero-section {
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+
+/* Dark overlay so text stays readable */
+.hero-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.52);
+  z-index: 0;
+}
+
+/* Lift content above the overlay */
+.hero-section .f-container-regular-2 {
+  position: relative;
+  z-index: 1;
+}
+
+/* White text on dark background */
+.hero-section .f-heading-detail-small-2,
+.hero-section .home-header-h1,
+.hero-section .f-paragraph-large-2 {
+  color: #ffffff;
+}
+
 /* ============================================
    Chinese font rendering
    ============================================ */
