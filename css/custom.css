@@ -30,7 +30,7 @@ p,
 
 /* Keep line length comfortable in left-aligned content blocks */
 .wrapper .f-paragraph-large-2 {
-  max-width: 72rem;
+  max-width: 48rem;
 }
 
 /* Centered page-header subtitles stay centered */
