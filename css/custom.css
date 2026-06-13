@@ -104,7 +104,7 @@ h1, h2, h3,
   border: 1px solid var(--zsg-blue);
   border-radius: 8px;
   padding: 12px 26px;
-  font-weight: 650;
+  font-weight: 600;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
@@ -342,7 +342,7 @@ h1, h2, h3,
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  height: 600px;
+  height: 650px;
   display: flex;
   align-items: center;
 }
