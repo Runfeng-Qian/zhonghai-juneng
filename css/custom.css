@@ -30,7 +30,7 @@ p,
 
 /* Keep line length comfortable in left-aligned content blocks */
 .wrapper .f-paragraph-large-2 {
-  max-width: 64rem;
+  max-width: 72rem;
 }
 
 /* Centered page-header subtitles stay centered */
@@ -104,7 +104,7 @@ h1, h2, h3,
   border: 1px solid var(--zsg-blue);
   border-radius: 8px;
   padding: 12px 26px;
-  font-weight: 600;
+  font-weight: 650;
   transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
