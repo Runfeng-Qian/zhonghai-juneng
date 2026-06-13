@@ -347,6 +347,11 @@ h1, h2, h3,
   align-items: center;
 }
 
+/* About page hero uses its own Hong Kong image */
+.about-hero {
+  background-image: url('../images/about-hero.jpg');
+}
+
 /* Dark overlay so text stays readable */
 .hero-section::before {
   content: '';
@@ -365,6 +370,7 @@ h1, h2, h3,
 /* White text on dark background */
 .hero-section .f-heading-detail-small-2,
 .hero-section .home-header-h1,
+.hero-section .f-h1-heading-2,
 .hero-section .f-paragraph-large-2 {
   color: #ffffff;
 }
