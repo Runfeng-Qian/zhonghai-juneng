@@ -32,6 +32,11 @@ p,
   max-width: 1600px;
 }
 
+/* Let the home previews go wider than the default 1140px container */
+.container-wide {
+  max-width: 1600px;
+}
+
 .f-paragraph-large-2 {
   max-width: 72rem;
 }
