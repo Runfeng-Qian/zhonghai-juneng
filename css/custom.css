@@ -32,6 +32,13 @@ p,
   max-width: 1400px;
 }
 
+/* Center the About / Business body text column */
+.content-body {
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Let the home previews go wider than the default 1140px container */
 .container-wide {
   max-width: 1400px;
