@@ -28,8 +28,11 @@ p,
   line-height: 1.75;
 }
 
-/* Keep line length comfortable in left-aligned content blocks */
-.wrapper .f-paragraph-large-2 {
+.wrapper {
+  max-width: 1600px;
+}
+
+.f-paragraph-large-2 {
   max-width: 72rem;
 }
 
