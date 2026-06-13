@@ -366,6 +366,12 @@ h1, h2, h3,
 .about-hero {
   background-image: url('../images/about-hero.jpg');
 }
+.business-hero {
+  background-image: url('../images/business-hero.png');
+}
+.contact-hero {
+  background-image: url('../images/contact-hero.jpg');
+}
 
 /* Dark overlay so text stays readable */
 .hero-section::before {
