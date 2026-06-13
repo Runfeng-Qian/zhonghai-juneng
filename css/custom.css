@@ -369,6 +369,22 @@ h1, h2, h3,
   color: #ffffff;
 }
 
+/* Home page: About + Business previews side by side */
+.preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+/* Stack them on tablet and smaller */
+@media screen and (max-width: 991px) {
+  .preview-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
 /* ============================================
    Chinese font rendering
    ============================================ */
