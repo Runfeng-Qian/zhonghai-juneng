@@ -413,9 +413,3 @@ html[lang="zh-TW"] body {
 html[lang="en"] body {
   font-family: "Open Sans", sans-serif;
 }
-
-/* About page: center the body content as a narrower column */
-.page-about .wrapper {
-  margin-left: auto;
-  margin-right: auto;
-}
