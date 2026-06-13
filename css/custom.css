@@ -129,6 +129,11 @@ h1, h2, h3,
   border-bottom: 1px solid var(--zsg-line);
 }
 
+.f-navigation {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .f-navigation-link {
   color: var(--zsg-ink);
   font-weight: 600;
