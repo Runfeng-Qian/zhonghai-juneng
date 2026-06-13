@@ -139,6 +139,14 @@ h1, h2, h3,
   color: var(--zsg-blue);
 }
 
+.f-navigation-wrapper {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
 /* Inline links inside copy (e.g. emails) */
 .f-paragraph-large-2 a {
   color: var(--zsg-blue);
