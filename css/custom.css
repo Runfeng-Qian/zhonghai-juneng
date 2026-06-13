@@ -387,7 +387,7 @@ h1, h2, h3,
 .preview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 128px;
+  gap: 120px;
   align-items: start;
 }
 
