@@ -26,7 +26,7 @@ p,
   color: var(--zsg-body);
   font-size: 1.125rem;   /* ~18px */
   line-height: 1.75;
-  width: 50rem;
+  width: 52rem;
 }
 
 .wrapper {
@@ -76,7 +76,8 @@ h1, h2, h3,
 .f-h1-heading-2 {
   font-size: 44px;
   line-height: 1.15;
-  margin-top: 15px
+  margin-top: 15px;
+  width: 52rem
 }
 
 /* Section sub-headings matched to the main heading size */
