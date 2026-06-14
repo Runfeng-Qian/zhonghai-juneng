@@ -1,9 +1,24 @@
 /* ============================================
    Custom styles for 中海聚能集团有限公司 (ZSG)
-   Layered on top of Webflow CSS
+   Layered on top of Webflow CSS.
+
+   Structure:
+     1. Tokens
+     2. Base typography
+     3. Layout containers
+     4. Headings
+     5. Buttons
+     6. Navbar
+     7. Language switcher
+     8. Footer
+     9. Hero
+    10. Home previews
+    11. Chinese fonts
+    12. Desktop-only nav grid (min-width: 992px)
+    13. Responsive  (<=991  /  <=767  /  <=479)
    ============================================ */
 
-/* ---- Theme tokens ---- */
+/* ---- 1. Theme tokens ---- */
 :root {
   --zsg-blue: #005a9c;        /* professional banking blue (RBC/BMO range) */
   --zsg-blue-dark: #00407a;   /* hover / pressed */
@@ -12,7 +27,7 @@
   --zsg-line: #e6e9ee;        /* subtle dividers */
 }
 
-/* ---- Base ---- */
+/* ---- 2. Base typography ---- */
 body {
   background-color: #ffffff;
   color: var(--zsg-ink);
@@ -20,7 +35,6 @@ body {
   line-height: 1.7;
 }
 
-/* Larger, more readable body text */
 p,
 .f-paragraph-large-2 {
   color: var(--zsg-body);
@@ -28,6 +42,24 @@ p,
   line-height: 1.75;
 }
 
+.f-paragraph-large-2 {
+  max-width: 56rem;
+}
+
+/* Inline links inside copy (e.g. emails) */
+.f-paragraph-large-2 a {
+  color: var(--zsg-blue);
+  text-decoration: underline;
+}
+
+/* Centered page-header subtitles stay centered */
+.f-header-title-wrapper-center .f-paragraph-large-2 {
+  max-width: 54rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- 3. Layout containers ---- */
 .wrapper {
   max-width: 1400px;
 }
@@ -44,25 +76,15 @@ p,
   max-width: 1400px;
 }
 
-.f-paragraph-large-2 {
-  max-width: 56rem;
-}
-
-/* Centered page-header subtitles stay centered */
-.f-header-title-wrapper-center .f-paragraph-large-2 {
-  max-width: 54rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Template gives content sections a dark bg + image; make them white */
+/* Template gives content sections a dark bg + image; make them white.
+   NOTE: this must stay ABOVE the hero rules so hero background images win. */
 .f-section-large,
 .f-section-large-2 {
   background-color: #ffffff;
   background-image: none;
 }
 
-/* ---- Headings ---- */
+/* ---- 4. Headings ---- */
 h1, h2, h3,
 .home-header-h1,
 .f-h1-heading-2,
@@ -70,27 +92,20 @@ h1, h2, h3,
   color: var(--zsg-ink);
 }
 
-/* Smaller page/hero titles (template default is 64px) */
+/* Page/hero titles (template default is 64px).
+   max-width (not fixed width) so they never overflow narrow screens. */
 .home-header-h1,
 .f-h1-heading-2 {
   font-size: 44px;
   line-height: 1.15;
   margin-top: 15px;
-  width: 54rem
+  max-width: 54rem;
 }
 
-/* Section sub-headings matched to the main heading size */
+/* Section sub-headings */
 .home-about-title {
   font-size: 40px;
   line-height: 1.2;
-}
-
-@media screen and (max-width: 991px) {
-  .home-header-h1,
-  .f-h1-heading-2,
-  .home-about-title {
-    font-size: 32px;
-  }
 }
 
 /* Eyebrow / kicker text in blue */
@@ -114,7 +129,7 @@ h1, h2, h3,
   border-radius: 2px;
 }
 
-/* ---- Buttons (solid blue, like a bank CTA) ---- */
+/* ---- 5. Buttons (solid blue, like a bank CTA) ---- */
 .secondary-btn {
   background-color: var(--zsg-blue);
   border: 1px solid var(--zsg-blue);
@@ -139,7 +154,7 @@ h1, h2, h3,
   justify-content: flex-end;
 }
 
-/* ---- Navbar ---- */
+/* ---- 6. Navbar ---- */
 .w-nav {
   background-color: #ffffff;
   border-bottom: 1px solid var(--zsg-line);
@@ -168,72 +183,6 @@ h1, h2, h3,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Inline links inside copy (e.g. emails) */
-.f-paragraph-large-2 a {
-  color: var(--zsg-blue);
-  text-decoration: underline;
-}
-
-/* ---- Footer ---- */
-.f-footer-small {
-  background-color: #ffffff;
-  border-top: 1px solid var(--zsg-line);
-}
-
-.f-footer-small .f-container-large {
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.f-footer-bottom {
-  padding-top: 4;
-  padding-bottom: 4;
-}
-
-.f-footer-link {
-  color: var(--zsg-ink);
-}
-
-.f-footer-link:hover {
-  color: var(--zsg-blue);
-}
-
-.f-footer-detail {
-  color: #6b7280;
-}
-
-.f-footer-vertical-divider,
-.f-footer-horizontal-divider {
-  background-color: var(--zsg-line);
-}
-
-/* ---- Logos ---- */
-/* Smaller footer logo (was width="200" in the HTML) */
-.f-footer-logo img {
-  width: 80px;
-  height: auto;
-}
-
-/* Keep footer links on a single horizontal line */
-.f-footer-menu {
-  flex-wrap: nowrap;
-}
-
-@media screen and (max-width: 479px) {
-  .f-footer-menu {
-    flex-direction: row;
-  }
-  .f-footer-vertical-divider {
-    display: block;   /* the | dividers are hidden on mobile by default */
-  }
-}
-
-/* Stop footer link labels from wrapping (关于我们 → 关于我/们) */
-.f-footer-link,
-.f-footer-link div {
-  white-space: nowrap;
-}
-
 /* Centered logo sitting between the nav buttons */
 .f-navigation-logo-link-middle {
   display: flex;
@@ -246,63 +195,7 @@ h1, h2, h3,
   height: auto;
 }
 
-/* Desktop: a 3-column grid (1fr | logo | 1fr) pins the logo to the exact center.
-   The side columns are always equal width, so the language bar cannot shift it. */
-@media screen and (min-width: 992px) {
-  .f-navigation-logo-link-mobile {
-    display: none;
-  }
-
-  .f-navigation-menu.w-nav-menu {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    width: 100%;
-    float: none;
-  }
-
-  .nav-side {
-    display: flex;
-    align-items: center;
-    gap: 32px;          /* was 28px */
-    min-width: 0;
-  }
-
-  .nav-side-left {
-    justify-content: flex-end;   /* was space-between */
-  }
-
-  /* BUSINESS/CONTACT sit beside the logo; language bar pushed to the far right */
-  .nav-side-right {
-    justify-content: flex-start;
-  }
-
-  .nav-side-right .lang-switcher {
-    margin-left: auto;
-  }
-
-  .f-navigation-logo-link-middle {
-    margin: 0 32px;     /* was 0 36px */
-  }
-}
-
-/* Mobile: keep the left logo, hide the centered one; stack the link groups */
-@media screen and (max-width: 991px) {
-  .f-navigation-logo-link-middle {
-    display: none;
-  }
-
-  .nav-side {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-    width: 100%;
-  }
-}
-
-/* ============================================
-   Language switcher in nav
-   ============================================ */
+/* ---- 7. Language switcher ---- */
 .lang-switcher {
   display: inline-flex;
   align-items: center;
@@ -337,21 +230,57 @@ h1, h2, h3,
   border-color: var(--zsg-blue);
 }
 
-/* On mobile nav, stack lang switcher below links */
-@media screen and (max-width: 991px) {
-  .lang-switcher {
-    margin-left: 0;
-    padding-left: 0;
-    border-left: none;
-    border-top: 1px solid var(--zsg-line);
-    margin-top: 12px;
-    padding-top: 12px;
-    justify-content: center;
-    width: 100%;
-  }
+/* ---- 8. Footer ---- */
+.f-footer-small {
+  background-color: #ffffff;
+  border-top: 1px solid var(--zsg-line);
 }
 
-/* ---- Hero background image ---- */
+.f-footer-small .f-container-large {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.f-footer-bottom {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.f-footer-link {
+  color: var(--zsg-ink);
+}
+
+.f-footer-link:hover {
+  color: var(--zsg-blue);
+}
+
+/* Stop footer link labels from wrapping (关于我们 -> 关于我/们) */
+.f-footer-link,
+.f-footer-link div {
+  white-space: nowrap;
+}
+
+.f-footer-detail {
+  color: #6b7280;
+}
+
+.f-footer-vertical-divider,
+.f-footer-horizontal-divider {
+  background-color: var(--zsg-line);
+}
+
+/* Keep footer links on a single horizontal line (desktop) */
+.f-footer-menu {
+  flex-wrap: nowrap;
+}
+
+/* Smaller footer logo (was width="200" in the HTML) */
+.f-footer-logo img {
+  width: 80px;
+  height: auto;
+}
+
+/* ---- 9. Hero ---- */
 .hero-section {
   background-image: url('../images/hero-bg.png');
   background-size: cover;
@@ -363,16 +292,9 @@ h1, h2, h3,
   align-items: center;
 }
 
-/* About page hero uses its own Hong Kong image */
-.about-hero {
-  background-image: url('../images/about-hero.jpg');
-}
-.business-hero {
-  background-image: url('../images/business-hero.png');
-}
-.contact-hero {
-  background-image: url('../images/contact-hero.jpg');
-}
+.about-hero    { background-image: url('../images/about-hero.jpg'); }
+.business-hero { background-image: url('../images/business-hero.png'); }
+.contact-hero  { background-image: url('../images/contact-hero.jpg'); }
 
 /* Dark overlay so text stays readable */
 .hero-section::before {
@@ -397,7 +319,7 @@ h1, h2, h3,
   color: #ffffff;
 }
 
-/* Home page: About + Business previews side by side */
+/* ---- 10. Home previews (About + Business side by side) ---- */
 .preview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -405,25 +327,238 @@ h1, h2, h3,
   align-items: start;
 }
 
-/* Stack them on tablet and smaller */
-@media screen and (max-width: 991px) {
-  .preview-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
+/* ---- 11. Chinese font rendering ---- */
+html[lang="zh-CN"] body { font-family: "Noto Sans SC", "Open Sans", sans-serif; }
+html[lang="zh-TW"] body { font-family: "Noto Sans TC", "Open Sans", sans-serif; }
+html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
+
+/* ============================================
+   12. DESKTOP-ONLY nav grid (>= 992px)
+   A 3-column grid (1fr | logo | 1fr) pins the logo dead center.
+   ============================================ */
+@media screen and (min-width: 992px) {
+  .f-navigation-logo-link-mobile { display: none; }
+
+  .f-navigation-menu.w-nav-menu {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    width: 100%;
+    float: none;
   }
+
+  .nav-side {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    min-width: 0;
+  }
+
+  .nav-side-left  { justify-content: flex-end; }
+  .nav-side-right { justify-content: flex-start; }
+  .nav-side-right .lang-switcher { margin-left: auto; }
+
+  .f-navigation-logo-link-middle { margin: 0 32px; }
 }
 
 /* ============================================
-   Chinese font rendering
+   13. RESPONSIVE
+   Tuned for tall (21:9) portrait phones at the bottom breakpoints.
    ============================================ */
-html[lang="zh-CN"] body {
-  font-family: "Noto Sans SC", "Open Sans", sans-serif;
+
+/* ----- Tablet & collapsed nav (hamburger opens at <= 991px) ----- */
+@media screen and (max-width: 991px) {
+  /* Stack the home previews */
+  .preview-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  /* Slightly smaller headings on tablet */
+  .home-header-h1,
+  .f-h1-heading-2,
+  .home-about-title {
+    font-size: 32px;
+  }
+
+  /* Hide the centered logo; the left mobile logo is used instead */
+  .f-navigation-logo-link-middle { display: none; }
+
+  /* The open dropdown menu gets a clean white panel */
+  .f-navigation-menu.w-nav-menu {
+    background-color: #ffffff;
+    padding: 8px 20px 16px;
+    border-top: 1px solid var(--zsg-line);
+  }
+
+  /* Stack the two link groups as a full-width list */
+  .nav-side {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+  }
+
+  /* Big, finger-friendly link rows */
+  .f-navigation-link {
+    padding: 15px 4px;
+    font-size: 17px;
+    border-bottom: 1px solid var(--zsg-line);
+  }
+
+  /* Language switcher centered under the links */
+  .lang-switcher {
+    justify-content: center;
+    gap: 8px;
+    margin: 12px 0 0;
+    padding: 14px 0 0;
+    border-left: none;
+    border-top: 1px solid var(--zsg-line);
+    width: 100%;
+  }
+
+  .lang-btn {
+    font-size: 15px;
+    padding: 8px 16px;
+  }
 }
 
-html[lang="zh-TW"] body {
-  font-family: "Noto Sans TC", "Open Sans", sans-serif;
+/* ----- Phones ----- */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 17px;
+    line-height: 1.75;
+  }
+
+  /* Never let long words / English run off a narrow screen */
+  h1, h2, h3,
+  p,
+  .f-paragraph-large-2,
+  .home-about-title,
+  .home-header-h1,
+  .f-h1-heading-2 {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  /* --- Hero --- */
+  .hero-section {
+    height: auto;          /* overrides the fixed 600px */
+    min-height: 420px;
+    padding: 72px 20px;
+  }
+
+  .hero-section::before { background: rgba(0, 0, 0, 0.55); }
+
+  .f-heading-detail-small-2 {   /* eyebrow drops from 36px */
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .home-header-h1,
+  .f-h1-heading-2 {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-top: 8px;
+  }
+
+  .hero-section .f-paragraph-large-2 {
+    font-size: 16px;
+    line-height: 1.65;
+  }
+
+  /* --- Body sections --- */
+  .f-section-large,
+  .f-section-large-2 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .content-body,
+  .wrapper {
+    max-width: 100%;
+  }
+
+  .home-about-title {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .f-paragraph-large-2 {
+    font-size: 17px;
+    line-height: 1.75;
+    max-width: 100%;
+  }
+
+  /* Full-width CTA button */
+  .secondary-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* --- Contact form --- */
+  .f-contact-form-grid {
+    grid-template-columns: 1fr;
+    grid-row-gap: 16px;
+  }
+
+  /* 16px keeps iOS from auto-zooming when a field is focused */
+  .f-field-input,
+  .f-text-area {
+    font-size: 16px;
+  }
+
+  .f-field-input { min-height: 52px; }
+  .f-text-area  { min-height: 140px; }
+
+  .f-contact-submit-wrapper { justify-content: stretch; }
+
+  .f-button-neutral-4 {
+    width: 100%;
+    min-height: 52px;
+    font-size: 16px;
+  }
+
+  /* --- Footer (stacked + centered) --- */
+  .f-footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+  }
+
+  .f-footer-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+  }
+
+  /* Dividers look awkward once links wrap, so hide them on mobile */
+  .f-footer-vertical-divider { display: none; }
+
+  .f-footer-link,
+  .f-footer-link div {
+    font-size: 14px;
+  }
 }
 
-html[lang="en"] body {
-  font-family: "Open Sans", sans-serif;
+/* ----- Narrow tall phones (the 21:9 sweet spot, ~360-430px) ----- */
+@media screen and (max-width: 479px) {
+  .hero-section {
+    padding: 60px 18px;
+    min-height: 380px;
+  }
+
+  .home-header-h1,
+  .f-h1-heading-2 { font-size: 27px; }
+
+  .home-about-title { font-size: 22px; }
+
+  body,
+  .f-paragraph-large-2 {
+    font-size: 16px;
+    line-height: 1.7;
+  }
 }
