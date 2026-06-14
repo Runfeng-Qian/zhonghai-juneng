@@ -26,7 +26,6 @@ p,
   color: var(--zsg-body);
   font-size: 1.125rem;   /* ~18px */
   line-height: 1.75;
-  width: 54rem;
 }
 
 .wrapper {
@@ -51,7 +50,7 @@ p,
 
 /* Centered page-header subtitles stay centered */
 .f-header-title-wrapper-center .f-paragraph-large-2 {
-  max-width: 48rem;
+  max-width: 50rem;
   margin-left: auto;
   margin-right: auto;
 }
