@@ -149,6 +149,17 @@ h1, h2, h3,
   border-color: var(--zsg-blue-dark);
 }
 
+/* ---- Contact form Send button ---- */
+.f-button-neutral-4 {
+  background-color: #1a73c4;   /* lighter than your brand #005a9c */
+  border: 1px solid #1a73c4;
+}
+
+.f-button-neutral-4:hover {
+  background-color: #005a9c;   /* settle to brand blue on hover */
+  border-color: #005a9c;
+}
+
 /* Right-align the contact form's Send Message button */
 .f-contact-submit-wrapper {
   justify-content: flex-end;
