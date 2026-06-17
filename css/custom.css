@@ -57,6 +57,13 @@ p,
   max-width: 1400px;
 }
 
+
+#zsgContactForm .f-contact-form-grid,
+#zsgContactForm .f-margin-bottom-44,
+#zsgContactForm .f-margin-bottom-49 {
+  margin-bottom: 24px;
+}
+
 /* Override template dark backgrounds — must sit above hero rules */
 .f-section-large,
 .f-section-large-2 {
