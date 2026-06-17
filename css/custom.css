@@ -1,33 +1,18 @@
-/* ============================================
-   Custom styles for 中海聚能集团有限公司 (ZSG)
-   Layered on top of Webflow CSS.
+/* ==============================================
+   Custom styles — Zhonghai Synergy Group (ZSG)
+   Layered on top of the Webflow Solar Valley base.
+   ============================================== */
 
-   Structure:
-     1. Tokens
-     2. Base typography
-     3. Layout containers
-     4. Headings
-     5. Buttons
-     6. Navbar
-     7. Language switcher
-     8. Footer
-     9. Hero
-    10. Home previews
-    11. Chinese fonts
-    12. Desktop-only nav grid (min-width: 992px)
-    13. Responsive  (<=991  /  <=767  /  <=479)
-   ============================================ */
-
-/* ---- 1. Theme tokens ---- */
+/* ---- Tokens ---- */
 :root {
-  --zsg-blue: #005a9c;        /* professional banking blue (RBC/BMO range) */
-  --zsg-blue-dark: #00407a;   /* hover / pressed */
-  --zsg-ink: #111418;         /* near-black headings */
-  --zsg-body: #2b2f36;        /* body text */
-  --zsg-line: #e6e9ee;        /* subtle dividers */
+  --zsg-blue:      #005a9c;
+  --zsg-blue-dark: #00407a;
+  --zsg-ink:       #111418;
+  --zsg-body:      #2b2f36;
+  --zsg-line:      #e6e9ee;
 }
 
-/* ---- 2. Base typography ---- */
+/* ---- Base typography ---- */
 body {
   background-color: #ffffff;
   color: var(--zsg-ink);
@@ -38,7 +23,7 @@ body {
 p,
 .f-paragraph-large-2 {
   color: var(--zsg-body);
-  font-size: 1.125rem;   /* ~18px */
+  font-size: 1.125rem;
   line-height: 1.75;
 }
 
@@ -46,45 +31,40 @@ p,
   max-width: 56rem;
 }
 
-/* Inline links inside copy (e.g. emails) */
 .f-paragraph-large-2 a {
   color: var(--zsg-blue);
   text-decoration: underline;
 }
 
-/* Centered page-header subtitles stay centered */
 .f-header-title-wrapper-center .f-paragraph-large-2 {
   max-width: 54rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* ---- 3. Layout containers ---- */
+/* ---- Layout containers ---- */
 .wrapper {
   max-width: 1400px;
 }
 
-/* Center the About / Business body text column */
 .content-body {
   max-width: 56rem;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Let the home previews go wider than the default 1140px container */
 .container-wide {
   max-width: 1400px;
 }
 
-/* Template gives content sections a dark bg + image; make them white.
-   NOTE: this must stay ABOVE the hero rules so hero background images win. */
+/* Override template dark backgrounds — must sit above hero rules */
 .f-section-large,
 .f-section-large-2 {
   background-color: #ffffff;
   background-image: none;
 }
 
-/* ---- 4. Headings ---- */
+/* ---- Headings ---- */
 h1, h2, h3,
 .home-header-h1,
 .f-h1-heading-2,
@@ -92,8 +72,6 @@ h1, h2, h3,
   color: var(--zsg-ink);
 }
 
-/* Page/hero titles (template default is 64px).
-   max-width (not fixed width) so they never overflow narrow screens. */
 .home-header-h1,
 .f-h1-heading-2 {
   font-size: 44px;
@@ -102,13 +80,11 @@ h1, h2, h3,
   max-width: 54rem;
 }
 
-/* Section sub-headings */
 .home-about-title {
   font-size: 40px;
   line-height: 1.2;
 }
 
-/* Eyebrow / kicker text in blue */
 .f-heading-detail-small-2 {
   color: var(--zsg-blue);
   text-transform: uppercase;
@@ -118,7 +94,6 @@ h1, h2, h3,
   line-height: 1.0;
 }
 
-/* Blue accent bar under section titles */
 .home-about-title::after {
   content: "";
   display: block;
@@ -129,7 +104,7 @@ h1, h2, h3,
   border-radius: 2px;
 }
 
-/* ---- 5. Buttons (solid blue, like a bank CTA) ---- */
+/* ---- Buttons ---- */
 .secondary-btn {
   background-color: var(--zsg-blue);
   border: 1px solid var(--zsg-blue);
@@ -149,23 +124,21 @@ h1, h2, h3,
   border-color: var(--zsg-blue-dark);
 }
 
-/* ---- Contact form Send button ---- */
 .f-button-neutral-4 {
-  background-color: #1a73c4;   /* lighter than your brand #005a9c */
+  background-color: #1a73c4;
   border: 1px solid #1a73c4;
 }
 
 .f-button-neutral-4:hover {
-  background-color: #005a9c;   /* settle to brand blue on hover */
+  background-color: #005a9c;
   border-color: #005a9c;
 }
 
-/* Right-align the contact form's Send Message button */
 .f-contact-submit-wrapper {
   justify-content: flex-end;
 }
 
-/* ---- 6. Navbar ---- */
+/* ---- Navbar ---- */
 .w-nav {
   background-color: #ffffff;
   border-bottom: 1px solid var(--zsg-line);
@@ -194,7 +167,6 @@ h1, h2, h3,
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
 
-/* Centered logo sitting between the nav buttons */
 .f-navigation-logo-link-middle {
   display: flex;
   align-items: center;
@@ -206,7 +178,7 @@ h1, h2, h3,
   height: auto;
 }
 
-/* ---- 7. Language switcher ---- */
+/* ---- Language switcher ---- */
 .lang-switcher {
   display: inline-flex;
   align-items: center;
@@ -241,7 +213,7 @@ h1, h2, h3,
   border-color: var(--zsg-blue);
 }
 
-/* ---- 8. Footer ---- */
+/* ---- Footer ---- */
 .f-footer-small {
   background-color: #ffffff;
   border-top: 1px solid var(--zsg-line);
@@ -267,7 +239,7 @@ h1, h2, h3,
   color: var(--zsg-blue);
 }
 
-/* Stop footer link labels from wrapping (关于我们 -> 关于我/们) */
+/* Prevent CJK labels from breaking mid-character */
 .f-footer-link,
 .f-footer-link div {
   white-space: nowrap;
@@ -284,18 +256,16 @@ h1, h2, h3,
   margin-bottom: 5px;
 }
 
-/* Keep footer links on a single horizontal line (desktop) */
 .f-footer-menu {
   flex-wrap: nowrap;
 }
 
-/* Smaller footer logo (was width="200" in the HTML) */
 .f-footer-logo img {
   width: 75px;
   height: auto;
 }
 
-/* ---- 9. Hero ---- */
+/* ---- Hero ---- */
 .hero-section {
   background-image: url('../images/hero-bg.png');
   background-size: cover;
@@ -311,7 +281,6 @@ h1, h2, h3,
 .business-hero { background-image: url('../images/business-hero.png'); }
 .contact-hero  { background-image: url('../images/contact-hero.jpg'); }
 
-/* Dark overlay so text stays readable */
 .hero-section::before {
   content: '';
   position: absolute;
@@ -320,13 +289,11 @@ h1, h2, h3,
   z-index: 0;
 }
 
-/* Lift content above the overlay */
 .hero-section .f-container-regular-2 {
   position: relative;
   z-index: 1;
 }
 
-/* White text on dark background */
 .hero-section .f-heading-detail-small-2,
 .hero-section .home-header-h1,
 .hero-section .f-h1-heading-2,
@@ -334,7 +301,7 @@ h1, h2, h3,
   color: #ffffff;
 }
 
-/* ---- 10. Home previews (About + Business side by side) ---- */
+/* ---- Home previews ---- */
 .preview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -342,15 +309,15 @@ h1, h2, h3,
   align-items: start;
 }
 
-/* ---- 11. Chinese font rendering ---- */
+/* ---- Chinese font stacks ---- */
 html[lang="zh-CN"] body { font-family: "Noto Sans SC", "Open Sans", sans-serif; }
 html[lang="zh-TW"] body { font-family: "Noto Sans TC", "Open Sans", sans-serif; }
 html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
-/* ============================================
-   12. DESKTOP-ONLY nav grid (>= 992px)
-   A 3-column grid (1fr | logo | 1fr) pins the logo dead center.
-   ============================================ */
+/* ==============================================
+   Desktop nav — 3-col grid (min-width: 992px)
+   1fr | logo | 1fr centres the logo exactly.
+   ============================================== */
 @media screen and (min-width: 992px) {
   .f-navigation-logo-link-mobile { display: none; }
 
@@ -376,37 +343,35 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
   .f-navigation-logo-link-middle { margin: 0 32px; }
 }
 
-/* ============================================
-   13. RESPONSIVE
-   Tuned for tall (21:9) portrait phones at the bottom breakpoints.
-   ============================================ */
-
-/* ----- Tablet & collapsed nav (hamburger opens at <= 991px) ----- */
+/* ==============================================
+   Tablet / hamburger menu (max-width: 991px)
+   ============================================== */
 @media screen and (max-width: 991px) {
-  /* Stack the home previews */
   .preview-grid {
     grid-template-columns: 1fr;
     gap: 36px;
   }
 
-  /* Slightly smaller headings on tablet */
   .home-header-h1,
   .f-h1-heading-2,
   .home-about-title {
     font-size: 32px;
   }
 
-  /* Hide the centered logo; the left mobile logo is used instead */
   .f-navigation-logo-link-middle { display: none; }
 
-  /* The open dropdown menu gets a clean white panel */
+  /* Mobile logo — keep it smaller than the 90px desktop version */
+  .f-navigation-logo-link-mobile img {
+    width: 80px;
+    height: auto;
+  }
+
   .f-navigation-menu.w-nav-menu {
     background-color: #ffffff;
     padding: 8px 20px 16px;
     border-top: 1px solid var(--zsg-line);
   }
 
-  /* Stack the two link groups as a full-width list */
   .nav-side {
     display: flex;
     flex-direction: column;
@@ -415,38 +380,37 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     width: 100%;
   }
 
-  /* Big, finger-friendly link rows */
   .f-navigation-link {
-    padding: 15px 4px;
-    font-size: 17px;
+    padding: 11px 4px;
+    font-size: 14px;
     border-bottom: 1px solid var(--zsg-line);
   }
 
-  /* Language switcher centered under the links */
   .lang-switcher {
     justify-content: center;
     gap: 8px;
-    margin: 12px 0 0;
-    padding: 14px 0 0;
+    margin: 8px 0 0;
+    padding: 10px 0 0;
     border-left: none;
     border-top: 1px solid var(--zsg-line);
     width: 100%;
   }
 
   .lang-btn {
-    font-size: 15px;
-    padding: 8px 16px;
+    font-size: 13px;
+    padding: 6px 12px;
   }
 }
 
-/* ----- Phones ----- */
+/* ==============================================
+   Phones (max-width: 767px)
+   ============================================== */
 @media screen and (max-width: 767px) {
   body {
     font-size: 17px;
     line-height: 1.75;
   }
 
-  /* Never let long words / English run off a narrow screen */
   h1, h2, h3,
   p,
   .f-paragraph-large-2,
@@ -457,16 +421,16 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     word-break: break-word;
   }
 
-  /* --- Hero --- */
+  /* Hero */
   .hero-section {
-    height: auto;          /* overrides the fixed 600px */
+    height: auto;
     min-height: 420px;
     padding: 72px 20px;
   }
 
   .hero-section::before { background: rgba(0, 0, 0, 0.55); }
 
-  .f-heading-detail-small-2 {   /* eyebrow drops from 36px */
+  .f-heading-detail-small-2 {
     font-size: 14px;
     line-height: 1.4;
   }
@@ -483,7 +447,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     line-height: 1.65;
   }
 
-  /* --- Body sections --- */
+  /* Body sections */
   .f-section-large,
   .f-section-large-2 {
     padding-top: 48px;
@@ -506,20 +470,19 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     max-width: 100%;
   }
 
-  /* Full-width CTA button */
   .secondary-btn {
     display: flex;
     justify-content: center;
     width: 100%;
   }
 
-  /* --- Contact form --- */
+  /* Contact form */
   .f-contact-form-grid {
     grid-template-columns: 1fr;
     grid-row-gap: 16px;
   }
 
-  /* 16px keeps iOS from auto-zooming when a field is focused */
+  /* 16px prevents iOS from auto-zooming on input focus */
   .f-field-input,
   .f-text-area {
     font-size: 16px;
@@ -536,30 +499,37 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     font-size: 16px;
   }
 
-  /* --- Footer (stacked + centered) --- */
+  /* Footer — compact horizontal row */
   .f-footer-bottom {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    text-align: center;
-    gap: 14px;
+    justify-content: space-between;
+    gap: 6px 12px;
+  }
+
+  /* Override webflow's width:100% so links sit inline */
+  .f-footer-link {
+    width: auto;
   }
 
   .f-footer-menu {
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 8px 14px;
+    justify-content: flex-end;
+    gap: 4px 10px;
   }
 
-  /* Dividers look awkward once links wrap, so hide them on mobile */
   .f-footer-vertical-divider { display: none; }
 
   .f-footer-link,
   .f-footer-link div {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
-/* ----- Narrow tall phones (the 21:9 sweet spot, ~360-430px) ----- */
+/* ==============================================
+   Narrow phones (max-width: 479px)
+   ============================================== */
 @media screen and (max-width: 479px) {
   .hero-section {
     padding: 60px 18px;
