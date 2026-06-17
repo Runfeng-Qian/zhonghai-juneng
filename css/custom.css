@@ -385,6 +385,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
     padding: 11px 4px;
     font-size: 14px;
     border-bottom: 1px solid var(--zsg-line);
+    text-align: center
   }
 
   .lang-switcher {
