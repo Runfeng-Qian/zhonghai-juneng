@@ -515,8 +515,9 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   /* --- Contact form --- */
   .f-contact-form-grid {
-    grid-template-columns: 1fr;
-    grid-row-gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;        /* matches the 32px below subject/message */
   }
 
   /* 16px keeps iOS from auto-zooming when a field is focused */
