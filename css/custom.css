@@ -145,8 +145,8 @@ h1, h2, h3,
 }
 
 .f-navigation {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .f-navigation-link {
@@ -174,7 +174,7 @@ h1, h2, h3,
 }
 
 .f-navigation-logo-link-middle img {
-  width: 75px;
+  width: 70px;
   height: auto;
 }
 
@@ -362,7 +362,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   /* Mobile logo — keep it smaller than the 90px desktop version */
   .f-navigation-logo-link-mobile img {
-    width: 65px;
+    width: 60px;
     height: auto;
   }
 
@@ -510,7 +510,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   /* Shrink footer logo on mobile */
   .f-footer-logo img {
-    width: 50px;
+    width: 45px;
   }
 
   /* Override webflow's width:100% and margin:10px 0 so links sit inline */
