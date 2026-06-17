@@ -244,8 +244,8 @@ h1, h2, h3,
 }
 
 .f-footer-bottom {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .f-footer-link {
@@ -269,8 +269,8 @@ h1, h2, h3,
 .f-footer-vertical-divider,
 .f-footer-horizontal-divider {
   background-color: var(--zsg-line);
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* Keep footer links on a single horizontal line (desktop) */
@@ -280,7 +280,7 @@ h1, h2, h3,
 
 /* Smaller footer logo (was width="200" in the HTML) */
 .f-footer-logo img {
-  width: 80px;
+  width: 75px;
   height: auto;
 }
 
