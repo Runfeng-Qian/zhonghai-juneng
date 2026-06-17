@@ -269,8 +269,8 @@ h1, h2, h3,
 .f-footer-vertical-divider,
 .f-footer-horizontal-divider {
   background-color: var(--zsg-line);
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Keep footer links on a single horizontal line (desktop) */
