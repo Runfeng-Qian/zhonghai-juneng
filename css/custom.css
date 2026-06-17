@@ -341,7 +341,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
   .nav-side-right { justify-content: flex-start; }
   .nav-side-right .lang-switcher { margin-left: auto; }
 
-  .f-navigation-logo-link-middle { margin: 0 32px; }
+  .f-navigation-logo-link-middle { margin: 0 48px; }
 }
 
 /* ==============================================
@@ -361,7 +361,6 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   .f-navigation-logo-link-middle { display: none; }
 
-  /* Mobile logo — keep it smaller than the 90px desktop version */
   .f-navigation-logo-link-mobile img {
     width: 55px;
     height: auto;
