@@ -234,16 +234,18 @@ h1, h2, h3,
 .f-footer-small {
   background-color: #ffffff;
   border-top: 1px solid var(--zsg-line);
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .f-footer-small .f-container-large {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .f-footer-bottom {
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 .f-footer-link {
