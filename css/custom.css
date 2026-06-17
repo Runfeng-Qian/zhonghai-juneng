@@ -339,18 +339,7 @@ h1, h2, h3,
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 120px;
-  align-items: stretch;
-}
-
-/* Each preview column becomes a vertical flex container */
-.preview-grid > div {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Auto margin pins the button to the bottom of each column */
-.preview-grid .f-button-wrapper {
-  margin-top: auto;
+  align-items: start;
 }
 
 /* ---- 11. Chinese font rendering ---- */
