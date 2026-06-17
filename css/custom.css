@@ -145,8 +145,8 @@ h1, h2, h3,
 }
 
 .f-navigation {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 .f-navigation-link {
@@ -362,7 +362,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   /* Mobile logo — keep it smaller than the 90px desktop version */
   .f-navigation-logo-link-mobile img {
-    width: 80px;
+    width: 65px;
     height: auto;
   }
 
