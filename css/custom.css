@@ -185,8 +185,8 @@ h1, h2, h3,
 }
 
 .f-navigation-logo-link-middle img {
-  width: 65px;
-  height: auto;
+  width: 60px;
+  height: 65px;
 }
 
 /* ---- Language switcher ---- */
@@ -272,8 +272,8 @@ h1, h2, h3,
 }
 
 .f-footer-logo img {
-  width: 45px;
-  height: auto;
+  width: 41.5px;
+  height: 45;
 }
 
 /* ---- Hero ---- */
@@ -372,8 +372,8 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
   .f-navigation-logo-link-middle { display: none; }
 
   .f-navigation-logo-link-mobile img {
-    width: 55px;
-    height: auto;
+    width: 50.8px;
+    height: 55;
   }
 
   .f-navigation-menu.w-nav-menu {
@@ -521,7 +521,8 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
 
   /* Shrink footer logo on mobile */
   .f-footer-logo img {
-    width: 40px;
+    width: 36.9px;
+    height: 40px;
   }
 
   /* Override webflow's width:100% and margin:10px 0 so links sit inline */
