@@ -42,6 +42,10 @@ p,
   margin-right: auto;
 }
 
+.hero-section .f-paragraph-large-2 {
+  font-size: 36px;
+}
+
 /* ---- Layout containers ---- */
 .wrapper {
   max-width: 1400px;
