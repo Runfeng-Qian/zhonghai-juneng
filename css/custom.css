@@ -191,6 +191,7 @@ h1, h2, h3,
 .f-navigation-logo-link-middle img {
   width: 60px;
   height: 65px;
+  object-fit: contain;
 }
 
 /* ---- Language switcher ---- */
@@ -378,6 +379,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
   .f-navigation-logo-link-mobile img {
     width: 50.8px;
     height: 55px;
+    object-fit: contain;
   }
 
   .f-navigation-menu.w-nav-menu {
