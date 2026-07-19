@@ -279,6 +279,7 @@ h1, h2, h3,
 .f-footer-logo img {
   width: 41.5px;
   height: 45px;
+  object-fit: contain;
 }
 
 /* ---- Hero ---- */
@@ -529,6 +530,7 @@ html[lang="en"]    body { font-family: "Open Sans", sans-serif; }
   .f-footer-logo img {
     width: 36.9px;
     height: 40px;
+    object-fit: contain;
   }
 
   /* Override webflow's width:100% and margin:10px 0 so links sit inline */
