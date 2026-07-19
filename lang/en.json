@@ -1,9 +1,9 @@
 {
   "meta": {
-    "home_title": "Zhonghai Synergy Group Limited (ZSG)",
-    "about_title": "About Us — Zhonghai Synergy Group Limited (ZSG)",
-    "business_title": "Business — Zhonghai Synergy Group Limited (ZSG)",
-    "contact_title": "Contact Us — Zhonghai Synergy Group Limited (ZSG)"
+  "home_title": "ZSG",
+  "about_title": "About Us — ZSG",
+  "business_title": "Business — ZSG",
+  "contact_title": "Contact Us — ZSG"
   },
   "nav": {
     "home": "HOME",
